@@ -25,6 +25,14 @@ var cloned_new_york = moment(new_york);
 // Clone the Los Angeles moment.
 var cloned_los_angeles = moment(los_angeles);
 
+// Touch all moments.
+local_time.millisecond(0);
+new_york.millisecond(0);
+los_angeles.millisecond(0);
+cloned_local_time.millisecond(0);
+cloned_new_york.millisecond(0);
+cloned_los_angeles.millisecond(0);
+
 // Print everything to see how we did.
 console.log('Local time      :', local_time.format(),         '    Timezone:', local_time._zn);
 console.log('New York        :', new_york.format(),           '    Timezone:', new_york._zn);
