@@ -1,0 +1,19 @@
+{
+  "name": "moment-default-timezone",
+  "version": "0.0.0",
+  "description": "test for moment.js default timezone",
+  "main": "test.js",
+  "dependencies": {
+    "moment": "elad/moment#develop",
+    "moment-timezone": "elad/moment-timezone#develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elad/moment-default-timezone.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC"
+}
